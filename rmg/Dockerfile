@@ -13,6 +13,6 @@ ADD . /app
 EXPOSE 8000
 EXPOSE 35729
 
-ENTRYPOINT ["/bin/bash", "/app/run.sh"]
+ENTRYPOINT ["/bin/bash", "/app/hit_it.sh"]
 CMD ["start"]
 

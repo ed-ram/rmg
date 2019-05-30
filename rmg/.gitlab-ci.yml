@@ -1,0 +1,16 @@
+stages:
+    - build 
+    - run
+
+Build code:
+    stage: Build
+    script:
+        make
+    artifacts:
+        paths:
+          - build_artefacts
+
+Nominal Run:
+    stage: Run
+    script
+        - 
